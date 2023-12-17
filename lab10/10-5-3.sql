@@ -1,6 +1,6 @@
 use LAB10
 go 
-Create VIEW ¾Ç´ÁÁ`¦¨ÁZ (stu_id, stu_allscore)
+Create VIEW å­¸æœŸç¸½æˆç¸¾ (stu_id, stu_allscore)
 As 
 Select stu_id ,Sum(Grade)
 From Course_select
