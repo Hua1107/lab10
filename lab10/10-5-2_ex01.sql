@@ -1,6 +1,6 @@
 use LAB10
 go 
-CREATE VIEW DB«e¤T¦W¦¨ÁZ³æ AS
+CREATE VIEW DBå‰ä¸‰åæˆç¸¾å–® AS
 SELECT TOP 3 stu_name,  C_name, Grade
 FROM Student AS A, Course_select AS B, Course AS C
 WHERE A. stu_id = B. stu_id
